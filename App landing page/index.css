@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: 'Clash Display', sans-serif;
+    font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 190px;
+    background-color: white;
+}
+
+.left-side {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+    color: black;
+}
+
+.small-tm {
+    font-size: 10px;
+}
+
+nav {
+    margin-left: 20px;
+}
+
+nav a {
+    margin: 0 20px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.home-btn {
+    color: #FF5555;
+    font-weight: 900;
+}
+
+.right-side .download-btn {
+    background-color: black;
+    color: white;
+    padding: 20px 50px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 20px;
+}
+
+.main-text {
+    font-weight: bolder;
+    padding: 40px 100px;
+}
+
+.main-text h1 {
+    margin: 0;
+    font-size: 48px;
+}
+
+.main-text h4 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.main-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.main-text .start-btn {
+    background-color: black;
+    color: white;
+    padding: 20px 50px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.main-text .watch-btn {
+    color: black;
+    padding: 10px 50px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
